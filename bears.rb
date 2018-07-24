@@ -19,5 +19,5 @@ class Bear
   def eats_fish(fish)
     @stomach.push(fish)
   end
-  
+
 end
