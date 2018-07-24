@@ -5,6 +5,11 @@ class Bear
   def initialize(name, type)
     @name = name
     @type = type
+    @stomach = []
+  end
+
+  def roar
+    return "RAWRR!"
   end
 
 end

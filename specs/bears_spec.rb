@@ -18,4 +18,8 @@ class BearsTest < MiniTest::Test
     assert_equal("Grizzly", @bear.type())
   end
 
+  def test_bear_roar
+    assert_equal("RAWRR!", @bear.roar())
+  end
+
 end
